@@ -1,0 +1,11 @@
+---
+interface Props {
+    style?:string;
+    className?:string;
+    id?:string;
+}
+const {style,id,className} = Astro.props
+---
+
+
+<img class={className} style={style} id={id} src="../../images/me.webp" alt="">
