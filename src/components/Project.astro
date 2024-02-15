@@ -1,0 +1,108 @@
+---
+import Tecnologi from "./Tecnologi.astro";
+import LinkProject from "./LinkProject.astro";
+interface Props {
+    name:string;
+    description:string;
+    image: string;
+    tecnologies: string[];
+    links_project: Object;
+
+}
+
+const {name,description,image,tecnologies,links_project} = Astro.props
+---
+
+<article id="project">
+    <header>
+        <h3>{name}</h3>
+        <p>
+            {description}
+        </p>
+        <img
+            src={image}
+            alt=`imagen del proyecto ${name}`
+        />
+    </header>
+
+    <footer>
+        <article>
+            {tecnologies && tecnologies.map(tecnologi=>{
+                return <Tecnologi tecnologi={tecnologi} />
+            })}
+            
+        </article>
+        <article>
+            {
+              links_project &&  Object.entries(links_project).map( link=>{
+                    const [name,href] = link
+                    return <LinkProject name={name} href={href}/>
+                })
+            }
+            
+           
+        </article>
+    </footer>
+</article>
+
+<style>
+    #project {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        padding: 0.5rem;
+        border-radius: 8px ; 
+        box-shadow: 0 2px 4px rgba(0, 153, 255, 0.1);
+        /* padding: 1rem; */
+        
+        transition: transform 0.3s ease-in-out;
+        grid-column:span 1;
+    }
+
+    header{
+        flex: 1;
+    }
+    
+    article * {
+        margin-bottom: 0.5rem;
+    }
+
+    img {
+       
+        border-radius: 5px;
+        min-width: 100%;
+        max-width: 100%;
+    }
+
+    #project:hover {
+        transform: scale(1.01);
+    }
+
+    footer {
+        padding: 0.1rem;
+        display: flex;
+        justify-content: space-between;   
+        
+    }
+
+
+    footer article {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+       
+    }
+
+    @media (prefers-color-scheme:dark;) {
+        #project{
+            border: 1px solid rgba(255, 255, 255, 0.1) !important;
+        }
+    }
+
+    /* @media (min-width: 768px) {
+        #project {
+            width: 700px;
+        }
+    } */
+</style>
