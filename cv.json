@@ -1,0 +1,93 @@
+{
+    "informacion_personal": {
+      "nombre": "Daniel Esneider Gualtero Gonzalez",
+      "email": "esneidergonzales2020@gmail.com"
+    },
+
+    "proyectos": [
+        {
+            "title": "GenFont",
+            "description" : "Esta es una descriccion del proyecto Mycommerce con casi todas la funcionalidades de uno real. hahahahhhahahh.",
+            "image" : "https://img.freepik.com/free-photo/rear-view-programmer-working-all-night-long_1098-18697.jpg?size=626&ext=jpg&ga=GA1.1.1361273653.1704921993&semt=sph",
+            "tecnologies" : ["html","javascript","css"],
+            "links_project": {
+                "page" : "https://daniel-esneider-gualtero-gonzalez.github.io/gen-font/",
+                "code": "https://github.com/Daniel-Esneider-Gualtero-Gonzalez/gen-font"
+            }
+        }
+        ,
+        {
+          "title": "My-chat",
+          "description" : "Aplicación de mensajería en tiempo real que te permite comunicarte con amigos, colegas o familiares de manera rápida y sencilla.",
+          "image" : "https://th.bing.com/th/id/OIP.fV_ETmnawNREMpR_XKfTxgHaEM?w=312&h=180&c=7&r=0&o=5&pid=1.7",
+          "tecnologies" : ["html","javascript","css"],
+          "links_project": {
+              "page" : "https://daniel-esneider-gualtero-gonzalez.github.io/gen-font/",
+              "code": "https://github.com/Daniel-Esneider-Gualtero-Gonzalez/gen-font"
+          }
+      }
+      ,
+      {
+        "title": "My-chat",
+        "description" : "Aplicación de mensajería en tiempo real que te permite comunicarte con amigos, colegas o familiares de manera rápida y sencilla.",
+        "image" : "https://th.bing.com/th/id/OIP.fV_ETmnawNREMpR_XKfTxgHaEM?w=312&h=180&c=7&r=0&o=5&pid=1.7",
+        "tecnologies" : ["html","javascript","css"],
+        "links_project": {
+            "page" : "https://daniel-esneider-gualtero-gonzalez.github.io/gen-font/",
+            "code": "https://github.com/Daniel-Esneider-Gualtero-Gonzalez/gen-font"
+        }
+    },
+    {
+      "title": "GenFont",
+      "description" : "Esta es una descriccion del proyecto Mycommerce con casi todas la funcionalidades de uno real. hahahahhhahahh.",
+      "image" : "https://img.freepik.com/free-photo/rear-view-programmer-working-all-night-long_1098-18697.jpg?size=626&ext=jpg&ga=GA1.1.1361273653.1704921993&semt=sph",
+      "tecnologies" : ["html","javascript","css"],
+      "links_project": {
+          "page" : "https://daniel-esneider-gualtero-gonzalez.github.io/gen-font/",
+          "code": "https://github.com/Daniel-Esneider-Gualtero-Gonzalez/gen-font"
+      }
+  }
+  
+    ] ,
+    "educacion": [
+      {
+        "titulo": "Licenciatura en Informática",
+        "institucion": "Universidad ABC",
+        "fecha_inicio": "2015",
+        "fecha_fin": "2019"
+      },
+      {
+        "titulo": "Maestría en Ingeniería de Software",
+        "institucion": "Universidad XYZ",
+        "fecha_inicio": "2020",
+        "fecha_fin": "2022"
+      }
+    ],
+    "experiencia_laboral": [
+      {
+        "puesto": "Desarrollador Web",
+        "empresa": "Empresa ABC",
+        "fecha_inicio": "2019",
+        "fecha_fin": "2021",
+        "descripcion": "Desarrollo de aplicaciones web utilizando tecnologías frontend y backend."
+      },
+      {
+        "puesto": "Ingeniero de Software",
+        "empresa": "Empresa XYZ",
+        "fecha_inicio": "2021",
+        "fecha_fin": "actualidad",
+        "descripcion": "Diseño, desarrollo y mantenimiento de sistemas de software."
+      }
+    ],
+    "habilidades": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Python",
+      "React",
+      "Node.js",
+      "SQL",
+      "Git"
+    ]
+  }
+  
