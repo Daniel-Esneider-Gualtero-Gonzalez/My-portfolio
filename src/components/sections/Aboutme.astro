@@ -1,0 +1,259 @@
+---
+import Logo from "../Logo.astro";
+---
+
+<h3 class="titleAboutme" id="acercademi">
+    <svg
+        xmlns="http://www.w3.org/2000/svg"
+        class="icon icon-tabler icon-tabler-user-code"
+        width="30"
+        height="30"
+        viewBox="0 0 24 24"
+        stroke-width="1.5"
+        stroke="currentColor"
+        fill="none"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        ><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><path
+            d="M8 7a4 4 0 1 0 8 0a4 4 0 0 0 -8 0"></path><path
+            d="M6 21v-2a4 4 0 0 1 4 -4h3.5"></path><path d="M20 21l2 -2l-2 -2"
+        ></path><path d="M17 17l-2 2l2 2"></path></svg
+    >
+    Acerca de mi
+</h3>
+<section id="aboutme">
+    <img src="../../../images/me.png" alt="" />
+    <span class="lineme"></span>
+    <div class="rectangle"></div>
+
+    <div id="texto">
+        <article>
+            <span class="line"></span>
+            <span class="circle"></span>
+            <h3>Otro</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur addddddddddddddddddddddd
+                dddddddddddddddddddddddddddipisicing elit. asi vel soluta
+                officia dolorem saepe.
+            </p>
+        </article>
+
+        <article>
+            <span class="line"></span>
+            <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="circle"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                fill="none"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                ><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><path
+                    d="M17 3h4v4"></path><path d="M21 3l-15 15"></path><path
+                    d="M3 18h3v3"></path><path
+                    d="M16.5 20c1.576 -1.576 2.5 -4.095 2.5 -6.5c0 -4.81 -3.69 -8.5 -8.5 -8.5c-2.415 0 -4.922 .913 -6.5 2.5l12.5 12.5z"
+                ></path></svg
+            >
+            <h3>Hobbies</h3>
+            <p>
+                Cuando no estoy inmerso en el mundo del código,me gusta perderme
+                en el ritmo y la melodía de la batería🥁. Tambien disfruto de la
+                sensación de libertad y aventura montanto en bicicleta 🚴‍♂️ Y por
+                supuesto, como me gusta la programación, no puedo resistirme a
+                pasar un tiempo viendo videos relacionados con el mundo del
+                desarrollo de software. 💻
+            </p>
+        </article>
+
+        <article>
+            <span class="line"></span>
+
+            <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="circle"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                fill="none"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                ><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><path
+                    d="M22 9l-10 -4l-10 4l10 4l10 -4v6"></path><path
+                    d="M6 10.6v5.4a6 3 0 0 0 12 0v-5.4"></path></svg
+            >
+
+            <h3>Estudios</h3>
+            <ul>
+                <li>
+                    <div>
+                        Técnico en diseño e integracion de multimedia
+                        <span>Sena</span>
+                    </div>
+                    <span>17-12 - 2021</span>
+                </li>
+                <li>
+                    <div>
+                        Tecnólogo en analisis y desarrollo de sistemas de
+                        informacion
+                        <span>Sena</span>
+                    </div>
+                    <span>23-01-2024</span>
+                </li>
+            </ul>
+        </article>
+    </div>
+</section>
+
+<style>
+    section svg {
+    }
+    .titleAboutme svg {
+        margin-right: 1rem;
+    }
+    .titleAboutme {
+        display: flex;
+        align-items: center;
+    }
+    section {
+        margin-top: 0.5em;
+        /* display: flex;
+        position: relative;
+        border-radius: 3px;
+        padding: 1em 0.5rem; */
+        padding: 0.5em 0.5rem;
+    }
+    img {
+        display: none;
+        width: 60px;
+        height: 60px;
+        border-radius: 1rem;
+        box-shadow: 0px 4px 6px rgba(0, 153, 255, 0.3) ;
+        margin: auto 0;
+    }
+    .lineme {
+        display: flex;
+        display: none;
+        min-width: 60px;
+        height: 1px;
+        background-color: red;
+        margin: auto 0;
+    }
+
+    .rectangle {
+        min-width: 80px;
+        border: 1px red solid;
+        border-top: none;
+        border-bottom: none;
+        border-right: none;
+    }
+    .circle {
+        position: absolute;
+        display: flex;
+        width: 25px;
+        height: 25px;
+        border-radius: 800px;
+        margin-left: -24px;
+        margin-top: -10px;
+        background-color: rgba(0, 153, 255);
+    }
+
+    .line {
+        position: absolute;
+        display: flex;
+        display: none;
+        width: 80px;
+        height: 1px;
+        margin-top: 3px;
+        margin-left: -90px;
+        background-color: #0099ff;
+        z-index: -9999;
+    }
+
+    article {
+        padding: 10px;
+        border-left: 1px solid #0099ff;
+        transition: margin 100ms ease-in-out;
+        overflow-y: auto;
+    }
+
+    article h3 {
+        font-weight: 500;
+        font-size: 0.96rem;
+        margin-left: 15px;
+        margin-top: -11px;
+    }
+
+    article p {
+        font-size: 0.83rem;
+        text-wrap: pretty;
+        margin-left: 15px;
+    }
+
+    article ul li {
+        padding: 0.2em;
+        font-size: 0.83rem;
+        text-wrap: pretty;
+        margin-left: 15px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 0.2em;
+    }
+    article ul li div span {
+        display: block;
+    }
+
+    article ul li span {
+        font-weight: bold;
+        color: rgba(0, 153, 255, 0.8);
+    }
+
+    article:hover {
+        border-radius: 3px;
+        box-shadow: 0 2px 4px rgba(0, 153, 255, 0.3);
+        margin: 1em 0;
+    }
+
+    @media (min-width: 768px) {
+        section {
+            display: flex !important;
+            position: relative;
+            border-radius: 3px;
+            padding: 1em 0.5rem;
+        }
+        img {
+            display: block;
+        }
+        .lineme {
+            display: block;
+        }
+        .line {
+            display: block;
+        }
+
+        section article:hover {
+            margin: 1rem;
+        }
+    }
+
+    @media (prefers-color-scheme: dark) {
+        article ul li span {
+            color: rgba(255, 255, 0, 0.8);
+        }
+    }
+</style>
+
+<!-- 
+
+
+#aboutme 
+#aboutme 
+
+#aboutme 
+
+ -->
