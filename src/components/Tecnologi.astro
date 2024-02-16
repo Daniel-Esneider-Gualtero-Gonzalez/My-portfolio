@@ -13,8 +13,6 @@ if (!tecnologi) return;
         <div>
             <svg
                 viewBox="0 0 256 154"
-                width="20"
-                height="20"
                 xmlns="http://www.w3.org/2000/svg"
                 preserveAspectRatio="xMidYMid"
             >
@@ -46,8 +44,6 @@ if (!tecnologi) return;
             <svg
                 id="nodejs"
                 viewBox="0 0 256 289"
-                width="20"
-                height="20"
                 xmlns="http://www.w3.org/2000/svg"
                 preserveAspectRatio="xMidYMid"
             >
@@ -69,8 +65,6 @@ if (!tecnologi) return;
                 xmlns="http://www.w3.org/2000/svg"
                 x="0px"
                 y="0px"
-                width="20"
-                height="20"
                 viewBox="0 0 48 48"
             >
                 <path fill="#ffd600" d="M6,42V6h36v36H6z" />
@@ -91,8 +85,6 @@ if (!tecnologi) return;
                 xmlns="http://www.w3.org/2000/svg"
                 x="0px"
                 y="0px"
-                width="20"
-                height="20"
                 viewBox="0 0 48 48"
             >
                 <path fill="#0277BD" d="M41,5H7l3,34l14,4l14-4L41,5L41,5z" />
@@ -117,8 +109,6 @@ if (!tecnologi) return;
             <svg
                 id="react"
                 viewBox="0 0 256 228"
-                width="19"
-                height="19"
                 xmlns="http://www.w3.org/2000/svg"
                 preserveAspectRatio="xMidYMid"
             >
@@ -135,8 +125,7 @@ if (!tecnologi) return;
 {
     tecnologi === "html" && (
         <div>
-            <svg xmlns="http://www.w3.org/2000/svg" width="15"
-                height="15" viewBox="0 0 452 520">
+            <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 452 520">
                 <path fill="#e34f26" d="M41 460L0 0h451l-41 460-185 52" />
                 <path fill="#ef652a" d="M226 472l149-41 35-394H226" />
                 <path
@@ -156,9 +145,7 @@ if (!tecnologi) return;
 <!--  -->
 
 <style>
-    svg {
-        margin-right: 3px;
-    }
+   
     div {
         display: flex;
         align-items: center;
@@ -167,8 +154,13 @@ if (!tecnologi) return;
         border-radius: 5px;
         width: fit-content;
         align-items: center;
-        margin-inline-end: 3px;
-        margin-bottom: 3px;
-        font-size: 12px;
+        margin:0 0.2rem;
+        margin-bottom: 0.2rem;;
+        font-size: 0.65rem;
+    }
+
+    div svg{
+        height:1rem;
+        width: 1rem;
     }
 </style>

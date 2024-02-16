@@ -1,13 +1,13 @@
 {
     "informacion_personal": {
-      "nombre": "Daniel Esneider Gualtero Gonzalez",
+      "nombre": "Daniel Esneider Gualtero",
       "email": "esneidergonzales2020@gmail.com"
     },
 
     "proyectos": [
         {
             "title": "GenFont",
-            "description" : "Esta es una descriccion del proyecto Mycommerce con casi todas la funcionalidades de uno real. hahahahhhahahh.",
+            "description" : "Aquí ira la descripción general del proyecto, que por el momento estoy trabajando en ello.",
             "image" : "https://img.freepik.com/free-photo/rear-view-programmer-working-all-night-long_1098-18697.jpg?size=626&ext=jpg&ga=GA1.1.1361273653.1704921993&semt=sph",
             "tecnologies" : ["html","javascript","css"],
             "links_project": {
@@ -18,7 +18,7 @@
         ,
         {
           "title": "My-chat",
-          "description" : "Aplicación de mensajería en tiempo real que te permite comunicarte con amigos, colegas o familiares de manera rápida y sencilla.",
+          "description" : "Aquí ira la descripción general del proyecto, que por el momento estoy trabajando en ello.",
           "image" : "https://th.bing.com/th/id/OIP.fV_ETmnawNREMpR_XKfTxgHaEM?w=312&h=180&c=7&r=0&o=5&pid=1.7",
           "tecnologies" : ["html","javascript","css"],
           "links_project": {
@@ -29,7 +29,7 @@
       ,
       {
         "title": "My-chat",
-        "description" : "Aplicación de mensajería en tiempo real que te permite comunicarte con amigos, colegas o familiares de manera rápida y sencilla.",
+        "description" : "Aquí ira la descripción general del proyecto, que por el momento estoy trabajando en ello.",
         "image" : "https://th.bing.com/th/id/OIP.fV_ETmnawNREMpR_XKfTxgHaEM?w=312&h=180&c=7&r=0&o=5&pid=1.7",
         "tecnologies" : ["html","javascript","css"],
         "links_project": {
@@ -39,7 +39,7 @@
     },
     {
       "title": "GenFont",
-      "description" : "Esta es una descriccion del proyecto Mycommerce con casi todas la funcionalidades de uno real. hahahahhhahahh.",
+      "description" : "Aquí ira la descripción general del proyecto, que por el momento estoy trabajando en ello.",
       "image" : "https://img.freepik.com/free-photo/rear-view-programmer-working-all-night-long_1098-18697.jpg?size=626&ext=jpg&ga=GA1.1.1361273653.1704921993&semt=sph",
       "tecnologies" : ["html","javascript","css"],
       "links_project": {

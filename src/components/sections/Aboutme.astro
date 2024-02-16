@@ -2,12 +2,9 @@
 import Logo from "../Logo.astro";
 ---
 
-<h3 class="titleAboutme" id="acercademi">
+<h2 class="titleAboutme" id="acercademi">
     <svg
         xmlns="http://www.w3.org/2000/svg"
-        class="icon icon-tabler icon-tabler-user-code"
-        width="30"
-        height="30"
         viewBox="0 0 24 24"
         stroke-width="1.5"
         stroke="currentColor"
@@ -20,7 +17,7 @@ import Logo from "../Logo.astro";
         ></path><path d="M17 17l-2 2l2 2"></path></svg
     >
     Acerca de mi
-</h3>
+</h2>
 <section id="aboutme">
     <img src="https://res.cloudinary.com/dqqw1bfwf/image/upload/v1708032644/aqwvdyyhceoqxl4ghaze.png" alt="" />
     <span class="lineme"></span>
@@ -111,19 +108,10 @@ import Logo from "../Logo.astro";
     section svg {
         color: white;
     }
-    .titleAboutme svg {
-        margin-right: 1rem;
-    }
-    .titleAboutme {
-        display: flex;
-        align-items: center;
-    }
+    
+   
     section {
         margin-top: 0.5em;
-        /* display: flex;
-        position: relative;
-        border-radius: 3px;
-        padding: 1em 0.5rem; */
         padding: 0.5em 0.5rem;
     }
     img {
@@ -176,7 +164,7 @@ import Logo from "../Logo.astro";
     article {
         padding: 10px;
         border-left: 1px solid #0099ff;
-        transition: margin 100ms ease-in-out;
+        transition: margin 100ms linear;
         overflow-y: auto;
     }
 
@@ -191,6 +179,7 @@ import Logo from "../Logo.astro";
         font-size: 0.83rem;
         text-wrap: pretty;
         margin-left: 15px;
+        
     }
 
     article ul li {
@@ -225,6 +214,9 @@ import Logo from "../Logo.astro";
             border-radius: 3px;
             padding: 1em 0.5rem;
         }
+        article p{
+            width: 38rem;
+        }
         img {
             display: block;
         }
@@ -236,19 +228,10 @@ import Logo from "../Logo.astro";
         }
 
         section article:hover {
-            margin: 1rem;
+            margin:  1rem 0;
         }
     }
 
     
 </style>
 
-<!-- 
-
-
-#aboutme 
-#aboutme 
-
-#aboutme 
-
- -->
