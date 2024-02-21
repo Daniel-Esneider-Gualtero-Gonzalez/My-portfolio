@@ -7,7 +7,7 @@ const { nombre, email } = informacion_personal;
 <section>
     <header>
         <img
-            class="meSm"
+            class="me"
             src="https://res.cloudinary.com/dqqw1bfwf/image/upload/v1708032644/aqwvdyyhceoqxl4ghaze.png"
             alt="imagen de Daniel Gualtero "
         />
@@ -112,13 +112,7 @@ const { nombre, email } = informacion_personal;
             </li>
         </ul>
     </header>
-    <footer>
-        <img
-            class="meXl"
-            src="https://res.cloudinary.com/dqqw1bfwf/image/upload/v1708032644/aqwvdyyhceoqxl4ghaze.png"
-            alt=""
-        />
-    </footer>
+    
 </section>
 
 <style>
@@ -131,14 +125,14 @@ const { nombre, email } = informacion_personal;
     section header {
         display: flex;
         flex-direction: column;
-        gap: 0.3em;
+        gap: 0.5em;
     }
     section svg {
         width: 23px;
         height: 23px;
     }
 
-    .meSm {
+    .me {
         width: 40px;
         border-radius: 1rem;
         box-shadow: 0px 4px 6px rgba(0, 153, 255, 0.3);
@@ -188,9 +182,7 @@ const { nombre, email } = informacion_personal;
     }
 
     @media (min-width: 768px) {
-        .meXl {
-            display: block !important;
-        }
+        
         .meSm {
             display: none;
         }
