@@ -23,7 +23,10 @@ import ChangeTheme from '../components/ChangeTheme.astro'
         height: 0,90rem;
     }
     nav ul{
+        
         display: flex;
+        align-items: center;
+        justify-content: center;
         flex-wrap: wrap;
         
     }
@@ -44,14 +47,13 @@ import ChangeTheme from '../components/ChangeTheme.astro'
     nav  a:hover {
         background-color: transparent;
         border: 1px solid rgba(0, 153, 255, 0.4);
-        transform: scale(1.02);
+        transform: scale(1.05);
     }   
 
     @media (prefers-color-scheme: dark) {
-        nav ul{
-            border-bottom: solid 1px rgba(245, 222, 179, 1) ;
-        }
+        
         nav a {
+            background-color: transparent;
             color: wheat;
             background-color: rgba(0, 153, 255, 0.2);
         }
