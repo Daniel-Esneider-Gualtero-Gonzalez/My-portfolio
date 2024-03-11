@@ -8,7 +8,7 @@
         {
             "title": "My-eccommerce",
             "description" : "Aplicación web que  permite a los usuarios explorar, buscar y comprar una variedad de productos en diferentes categorías, agregar  al carrito y realizar transacciones seguras. Todo de manera didáctica, ¡Que esperas para utillizarlo!",
-            "image" : "image-myecommerce.webp",
+            "image" : "https://res.cloudinary.com/dqqw1bfwf/image/upload/v1710189027/hw5kd4o1pyz3p3caqlja.webp",
             "tecnologies" : ["html","javascript","css","react","nodejs","tailwind"],
             "links_project": {
                 "page" : "https://daniel-esneider-gualtero-gonzalez.github.io/gen-font/",
@@ -19,7 +19,7 @@
         {
           "title": "My-chat",
           "description" : "Aquí ira la descripción general del proyecto, que por el momento estoy trabajando en ello.",
-          "image" : "image-placeholder-project.webp",
+          "image" : "https://res.cloudinary.com/dqqw1bfwf/image/upload/v1710189007/placeholder.webp",
           "tecnologies" : ["html","javascript","css"],
           "links_project": {
               "page" : "https://daniel-esneider-gualtero-gonzalez.github.io/gen-font/",
@@ -30,7 +30,7 @@
       {
         "title": "My-chat",
         "description" : "Aquí ira la descripción general del proyecto, que por el momento estoy trabajando en ello.",
-        "image" : "image-placeholder-project.webp",
+        "image" : "https://res.cloudinary.com/dqqw1bfwf/image/upload/v1710189007/placeholder.webp",
         "tecnologies" : ["html","javascript","css"],
         "links_project": {
             "page" : "https://daniel-esneider-gualtero-gonzalez.github.io/gen-font/",
@@ -40,7 +40,7 @@
     {
       "title": "GenFont",
       "description" : "Generador de fuente de 3 x 7 está basado en un ejercicio de lógica de la web adventJs de midudev. Consta de una serie de dígitos creados lo mejor posible y pueden ser representados por cualquier emoji o caracter que tu prefieras.",
-      "image" : "image-genfont.webp",
+      "image" : "https://res.cloudinary.com/dqqw1bfwf/image/upload/v1710189011/genfont.webp",
       "tecnologies" : ["html","javascript","css"],
       "links_project": {
           "page" : "https://daniel-esneider-gualtero-gonzalez.github.io/gen-font/",
