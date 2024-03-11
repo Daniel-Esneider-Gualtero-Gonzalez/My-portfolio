@@ -21,7 +21,7 @@ const { name, description, image, tecnologies, links_project } = Astro.props;
     </header>
 
     <div>
-        <article>
+        <article class="tecnologies">
             {
                 tecnologies &&
                     tecnologies.map((tecnologi) => {
@@ -89,6 +89,9 @@ const { name, description, image, tecnologies, links_project } = Astro.props;
         padding: 0.1rem;
         flex-direction: column;
         gap: 0.5em;
+    }
+    .tecnologies{
+        width: 60%;
     }
 
     div article,ul {
