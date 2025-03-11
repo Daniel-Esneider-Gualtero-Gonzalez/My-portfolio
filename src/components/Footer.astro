@@ -5,37 +5,26 @@ const {nombre} = informacion_personal
 ---
 
 <footer>
-    <span>&copy; 2024 {nombre}. Casi todos los derechos reservados.</span>
+    <span>Portafolio {nombre}. </span>
 </footer>
 
 <style>
     footer {
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
         align-items: center;
         padding: 0.5em 1rem;
         font-size: 0.9rem; 
         box-shadow: 0 2px 4px rgba(0, 153, 255, 0.3);
         
     }
+    span{
+        border-bottom: 1px rgba(0, 153, 255, 0.8) solid;
+    }
     
-    footer a {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background-color: rgba(0, 153, 255, 0.4);
-        border-radius: 5px;
-        padding: 0.6rem;
-        border: 1px solid rgba(0, 153, 255, 0.0);
-        transition: transform 150ms ease-in-out;
-    }
+    
 
-    footer a:hover {
-        background-color: transparent;
-        border: 1px solid rgba(0, 153, 255, 0.4);
-        transform: scale(1.05);
-    }
-
+   
     @media (prefers-color-scheme: dark) {
         footer{
             color: wheat;
