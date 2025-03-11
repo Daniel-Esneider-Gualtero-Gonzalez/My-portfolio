@@ -19,6 +19,7 @@ const { title } = Astro.props;
 		<meta name="color-scheme" content="light dark">
 		<meta name="generator" content={Astro.generator} />
 		<title>{title}</title>
+		<script src="https://kit.fontawesome.com/b388743eb7.js" crossorigin="anonymous"></script>
 	</head>
 	<body>
 		<Navbar />
@@ -126,4 +127,12 @@ const { title } = Astro.props;
 			padding: 0 10rem;
 		}
 	}
+
+	#tecnologies > :nth-child(odd) {
+        align-self: flex-end;
+    }
+	#tecnologies > div:hover{
+		box-shadow: 0 2px 4px rgba(0, 153, 255, 0.9);
+	}
+	
 </style>
