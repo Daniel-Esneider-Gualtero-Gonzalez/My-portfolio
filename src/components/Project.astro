@@ -25,11 +25,11 @@ const { name, description, image, tecnologies, links_project } = Astro.props;
             {
                 tecnologies &&
                     tecnologies.map((tecnologi) => {
-                        return <Tecnologi tecnologi={tecnologi} />;
+                        return <Tecnologi isSmall={true} tecnologi={tecnologi} />;
                     })
             }
         </article>
-        <article>
+        
             <ul>
                 {
                     links_project &&
@@ -43,7 +43,7 @@ const { name, description, image, tecnologies, links_project } = Astro.props;
                         })
                 }
             </ul>
-        </article>
+        
     </div>
     <footer>
         <img src={image} alt=`imagen del proyecto ${name}` />
@@ -84,17 +84,19 @@ const { name, description, image, tecnologies, links_project } = Astro.props;
         box-shadow: 0 2px 4px rgba(0, 153, 255, 0.3);
     }
 
-    div {
+    div{
         display: flex;
-        padding: 0.1rem;
-        flex-direction: column;
-        gap: 0.5em;
+        justify-content: space-between;
     }
-    .tecnologies{
+    
+     div article {
         width: 60%;
-    }
+        display: flex;
+        flex-wrap: wrap;
+     }
 
-    div article,ul {
+    div ul {
+        width: 40%;
         display: flex;
         flex-wrap: wrap;
         align-items: center;
@@ -107,10 +109,6 @@ const { name, description, image, tecnologies, links_project } = Astro.props;
 
     }
     @media (min-width: 1030px) {
-        div {
-            flex-direction: row;
-            justify-content: space-between;
-            gap: 0;
-        }
+        
     }
 </style>
